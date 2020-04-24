@@ -1,0 +1,59 @@
+body {
+    font-size: 20px;
+}
+
+input {
+    height: 60px;
+    font-size: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+#selectArea {
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(0, 172, 0);
+    width: 800px;
+    padding: 20px;
+}
+
+.selector {
+    font-size: 20px;
+}
+
+#calculationSelector {
+    margin-top: 2%;
+}
+
+#calculatingButton {
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+#calculatingArea {
+    margin-top: 20px;
+    color: aqua;
+}
+
+body {
+    margin-left: 0px;
+}
+
+#answerBox {
+    font-size: 60px;
+    padding: 0px;
+    text-align: center;
+}
+
+#answer {
+    border-style: dashed;
+    border-color: darkgreen;
+    height: 60px;
+    display: inline-block;
+    width: 650px;
+}

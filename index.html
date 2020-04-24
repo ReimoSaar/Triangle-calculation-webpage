@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>calculate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="interfaces/triangleCalculations.js"></script>
+    <script type="text/javascript" src="inputFeatures.js"></script>
+    <script type="text/javascript" src="scaleneTriangleCalculations.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+</head>
+
+<body>
+    <div id="selectArea">
+        <label for="typeSelector"> Triangle type: </label>
+        <select class="selector" id="typeSelector">
+            <option value=""></option>
+            <option value="scaleneTriangle"> Scalene triangle (has three different sides) </option>
+        </select>
+        <br>
+        <label for="calculationSelector"> Calculate: </label>
+        <select class="selector" id="calculationSelector">
+            <option value=""></option>
+            <option value="perimeter"> Perimeter </option>
+            <option value="area"> Area </option>
+            <option value="a"> a </option>
+            <option value="b"> b </option>
+            <option value="c"> c </option>
+            <option value="Α"> &alpha; </option>
+            <option value="Β"> &beta; </option>
+            <option value="Γ"> &gamma; </option>
+        </select>
+    </div>
+    <div id="calculatingArea"></div>
+    <br>
+    <button id="calculatingButton"> Calculate </button>
+    <br>
+    <div id="answerBox">
+        <p id="answer"></p>
+    </div>
+</body>
+
+</html>
